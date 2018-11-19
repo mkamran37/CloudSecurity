@@ -1,0 +1,33 @@
+@charset "utf-8";
+/*
+Template Name: Internet Business
+Author: <a href="http://www.os-templates.com/">OS Templates</a>
+Author URI: http://www.os-templates.com/
+Licence: Free to use under our free template licence terms
+Licence URI: http://www.os-templates.com/template-terms
+File: Featured Slider CSS
+*/
+
+#featured_slide{height:300px; overflow:hidden; color:#666666; background-color:#FFFFFF;}
+#featured_slide a{color:#059BD8; background-color:#232323;}
+#featured_slide a, #featured_slide ul, #featured_slide img{margin:0; padding:0; border:none; outline:none; list-style:none; text-decoration:none;}
+#featured_slide h1, #featured_slide h2, #featured_slide h3, #featured_slide h4, #featured_slide h5, #featured_slide h6{margin:10px 0 15px 0; font-size:26px;}
+
+/* ----------------------------------------------Content------------------------------------- */
+
+.featured_content{position:relative; display:block; width:920px; height:300px; overflow:hidden;}
+.featured_content ul#accordion{display:block; width:920px; height:300px; overflow:hidden;}
+.featured_content ul#accordion li{color:#FFFFFF; background-color:#232323;}
+.featured_content ul#accordion li.current{color:#FFFFFF; background-color:#383838;}
+#featured_slide li.current a{color:#059BD8; background-color:#383838;}
+.featured_content p{margin:0 0 15px 0; padding:0; line-height:1.6em;}
+.featured_content p.readmore{display:block; width:100%; margin:0; padding:0; text-align:right; line-height:normal; text-transform:uppercase;}
+.featured_box{display:block; float:left; width:335px; height:250px; padding:15px; overflow:hidden;}
+
+/* ----------------------------------------------Tabs------------------------------------- */
+
+.featured_tab{position:relative; display:block; float:right; width:472px; height:225px; padding:75px 5px 0 5px; text-align:center; border-left:1px dotted #484848; cursor:pointer; color:#059BD8; background-color:#232323;}
+#featured_slide .featured_tab img{display:block; width:369px; height:229px; margin:-58px 0 15px 0;}
+#featured_slide .featured_tab:hover img{margin:-15px 0 15px 0;}
+#featured_slide li.current .featured_tab{cursor:default; color:#FFFFFF; background-color:#383838;}
+#featured_slide li.current .featured_tab:hover img{margin-top:0;}
